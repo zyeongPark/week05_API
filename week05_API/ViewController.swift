@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+//api 활용 프로젝트 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
