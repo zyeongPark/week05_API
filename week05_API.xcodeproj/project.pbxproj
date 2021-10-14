@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		575D0B2BA5176F6B0857E03C /* Pods_week05_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81EDFE6FFF0178ABB5072C0 /* Pods_week05_API.framework */; };
 		E15C6011270F24BC00B3B30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C6010270F24BC00B3B30E /* AppDelegate.swift */; };
 		E15C6013270F24BC00B3B30E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C6012270F24BC00B3B30E /* SceneDelegate.swift */; };
-		E15C6015270F24BC00B3B30E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C6014270F24BC00B3B30E /* ViewController.swift */; };
+		E15C6015270F24BC00B3B30E /* NaverLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C6014270F24BC00B3B30E /* NaverLoginViewController.swift */; };
 		E15C6018270F24BC00B3B30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C6016270F24BC00B3B30E /* Main.storyboard */; };
 		E15C601A270F24BF00B3B30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C6019270F24BF00B3B30E /* Assets.xcassets */; };
 		E15C601D270F24BF00B3B30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C601B270F24BF00B3B30E /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E95BD83A80715A4B45FD94C /* Pods-week05_API.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-week05_API.debug.xcconfig"; path = "Target Support Files/Pods-week05_API/Pods-week05_API.debug.xcconfig"; sourceTree = "<group>"; };
+		B81EDFE6FFF0178ABB5072C0 /* Pods_week05_API.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_week05_API.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D81F3F02EBD24D70C9090A7C /* Pods-week05_API.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-week05_API.release.xcconfig"; path = "Target Support Files/Pods-week05_API/Pods-week05_API.release.xcconfig"; sourceTree = "<group>"; };
 		E15C600D270F24BC00B3B30E /* week05_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week05_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15C6010270F24BC00B3B30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15C6012270F24BC00B3B30E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E15C6014270F24BC00B3B30E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E15C6014270F24BC00B3B30E /* NaverLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLoginViewController.swift; sourceTree = "<group>"; };
 		E15C6017270F24BC00B3B30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E15C6019270F24BF00B3B30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15C601C270F24BF00B3B30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +35,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				575D0B2BA5176F6B0857E03C /* Pods_week05_API.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D68E6761EA0D94552708BFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E95BD83A80715A4B45FD94C /* Pods-week05_API.debug.xcconfig */,
+				D81F3F02EBD24D70C9090A7C /* Pods-week05_API.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74791E4CD917BEA918FE799C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B81EDFE6FFF0178ABB5072C0 /* Pods_week05_API.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E110D3CA2716D4C2006AC772 /* MovieApp */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MovieApp;
+			sourceTree = "<group>";
+		};
 		E15C6004270F24BC00B3B30E = {
 			isa = PBXGroup;
 			children = (
 				E15C600F270F24BC00B3B30E /* week05_API */,
 				E15C600E270F24BC00B3B30E /* Products */,
+				6D68E6761EA0D94552708BFD /* Pods */,
+				74791E4CD917BEA918FE799C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,9 +87,10 @@
 		E15C600F270F24BC00B3B30E /* week05_API */ = {
 			isa = PBXGroup;
 			children = (
+				E110D3CA2716D4C2006AC772 /* MovieApp */,
 				E15C6010270F24BC00B3B30E /* AppDelegate.swift */,
 				E15C6012270F24BC00B3B30E /* SceneDelegate.swift */,
-				E15C6014270F24BC00B3B30E /* ViewController.swift */,
+				E15C6014270F24BC00B3B30E /* NaverLoginViewController.swift */,
 				E15C6016270F24BC00B3B30E /* Main.storyboard */,
 				E15C6019270F24BF00B3B30E /* Assets.xcassets */,
 				E15C601B270F24BF00B3B30E /* LaunchScreen.storyboard */,
@@ -74,9 +106,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E15C6021270F24BF00B3B30E /* Build configuration list for PBXNativeTarget "week05_API" */;
 			buildPhases = (
+				9561C8FF40D6199B9391D974 /* [CP] Check Pods Manifest.lock */,
 				E15C6009270F24BC00B3B30E /* Sources */,
 				E15C600A270F24BC00B3B30E /* Frameworks */,
 				E15C600B270F24BC00B3B30E /* Resources */,
+				09DE7CC6331A00A44CF2D801 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,12 +167,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09DE7CC6331A00A44CF2D801 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-week05_API/Pods-week05_API-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-week05_API/Pods-week05_API-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-week05_API/Pods-week05_API-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9561C8FF40D6199B9391D974 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-week05_API-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E15C6009270F24BC00B3B30E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15C6015270F24BC00B3B30E /* ViewController.swift in Sources */,
+				E15C6015270F24BC00B3B30E /* NaverLoginViewController.swift in Sources */,
 				E15C6011270F24BC00B3B30E /* AppDelegate.swift in Sources */,
 				E15C6013270F24BC00B3B30E /* SceneDelegate.swift in Sources */,
 			);
@@ -284,6 +360,7 @@
 		};
 		E15C6022270F24BF00B3B30E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E95BD83A80715A4B45FD94C /* Pods-week05_API.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -311,6 +388,7 @@
 		};
 		E15C6023270F24BF00B3B30E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81F3F02EBD24D70C9090A7C /* Pods-week05_API.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

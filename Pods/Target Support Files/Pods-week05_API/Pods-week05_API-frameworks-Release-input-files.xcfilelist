@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-week05_API/Pods-week05_API-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${PODS_ROOT}/naveridlogin-sdk-ios/NaverThirdPartyLogin.framework
