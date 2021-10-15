@@ -22,8 +22,9 @@ import UIKit
 import NaverThirdPartyLogin
 import Alamofire
 
-class NaverLoginViewController: UIViewController, NaverThirdPartyLoginConnectionDelegate {
+class LoginViewController: UIViewController, NaverThirdPartyLoginConnectionDelegate {
     
+
     @IBOutlet weak var name: UILabel!
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var naverButton: UIButton!

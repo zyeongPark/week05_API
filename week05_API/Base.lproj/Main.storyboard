@@ -8,10 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Naver Login View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="JVv-sD-yDM">
             <objects>
-                <viewController id="EE4-u2-BgQ" customClass="NaverLoginViewController" customModule="week05_API" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="EE4-u2-BgQ" customClass="LoginViewController" customModule="week05_API" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Cf0-AR-UrH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -43,16 +43,16 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <connections>
-                        <outlet property="email" destination="2B2-Ww-KtC" id="UN2-mJ-Gu0"/>
+                        <outlet property="email" destination="2B2-Ww-KtC" id="f32-PY-4Zf"/>
                         <outlet property="emailLabel" destination="ZZn-Dn-Tbd" id="0z8-d8-6Zg"/>
                         <outlet property="id" destination="2B2-Ww-KtC" id="wVY-iH-yC3"/>
-                        <outlet property="name" destination="ZZn-Dn-Tbd" id="OPG-8C-mFC"/>
-                        <outlet property="naverButton" destination="CHf-g3-kaf" id="STH-KC-yw6"/>
+                        <outlet property="name" destination="ZZn-Dn-Tbd" id="EW6-D5-nTl"/>
+                        <outlet property="naverButton" destination="CHf-g3-kaf" id="07j-i2-f4m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eD4-DW-DnW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-328" y="94"/>
+            <point key="canvasLocation" x="-328.98550724637681" y="93.75"/>
         </scene>
     </scenes>
     <resources>

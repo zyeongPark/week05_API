@@ -10,7 +10,7 @@
 		575D0B2BA5176F6B0857E03C /* Pods_week05_API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B81EDFE6FFF0178ABB5072C0 /* Pods_week05_API.framework */; };
 		E15C6011270F24BC00B3B30E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C6010270F24BC00B3B30E /* AppDelegate.swift */; };
 		E15C6013270F24BC00B3B30E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C6012270F24BC00B3B30E /* SceneDelegate.swift */; };
-		E15C6015270F24BC00B3B30E /* NaverLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C6014270F24BC00B3B30E /* NaverLoginViewController.swift */; };
+		E15C6015270F24BC00B3B30E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15C6014270F24BC00B3B30E /* LoginViewController.swift */; };
 		E15C6018270F24BC00B3B30E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C6016270F24BC00B3B30E /* Main.storyboard */; };
 		E15C601A270F24BF00B3B30E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E15C6019270F24BF00B3B30E /* Assets.xcassets */; };
 		E15C601D270F24BF00B3B30E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E15C601B270F24BF00B3B30E /* LaunchScreen.storyboard */; };
@@ -23,7 +23,7 @@
 		E15C600D270F24BC00B3B30E /* week05_API.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = week05_API.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E15C6010270F24BC00B3B30E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E15C6012270F24BC00B3B30E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E15C6014270F24BC00B3B30E /* NaverLoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NaverLoginViewController.swift; sourceTree = "<group>"; };
+		E15C6014270F24BC00B3B30E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E15C6017270F24BC00B3B30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E15C6019270F24BF00B3B30E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E15C601C270F24BF00B3B30E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 				E110D3CA2716D4C2006AC772 /* MovieApp */,
 				E15C6010270F24BC00B3B30E /* AppDelegate.swift */,
 				E15C6012270F24BC00B3B30E /* SceneDelegate.swift */,
-				E15C6014270F24BC00B3B30E /* NaverLoginViewController.swift */,
+				E15C6014270F24BC00B3B30E /* LoginViewController.swift */,
 				E15C6016270F24BC00B3B30E /* Main.storyboard */,
 				E15C6019270F24BF00B3B30E /* Assets.xcassets */,
 				E15C601B270F24BF00B3B30E /* LaunchScreen.storyboard */,
@@ -214,7 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E15C6015270F24BC00B3B30E /* NaverLoginViewController.swift in Sources */,
+				E15C6015270F24BC00B3B30E /* LoginViewController.swift in Sources */,
 				E15C6011270F24BC00B3B30E /* AppDelegate.swift in Sources */,
 				E15C6013270F24BC00B3B30E /* SceneDelegate.swift in Sources */,
 			);
