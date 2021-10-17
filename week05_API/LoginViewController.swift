@@ -25,7 +25,7 @@ import Alamofire
 class LoginViewController: UIViewController, NaverThirdPartyLoginConnectionDelegate {
     
     
-    @IBOutlet weak var name: UILabel!
+    @IBOutlet weak var name: UILabel! //naem 설정
     @IBOutlet weak var email: UILabel!
     @IBOutlet weak var naverButton: UIButton!
     
