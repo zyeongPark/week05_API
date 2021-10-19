@@ -18,7 +18,7 @@
 //}
 
 import Foundation
-import UIKit
+import UIKit //uikit
 import NaverThirdPartyLogin
 import Alamofire
 
