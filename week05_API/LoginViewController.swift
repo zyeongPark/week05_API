@@ -18,7 +18,7 @@
 //}
 
 import Foundation
-import UIKit //uikit
+import UIKit
 import NaverThirdPartyLogin
 import Alamofire
 
@@ -27,7 +27,7 @@ class LoginViewController: UIViewController, NaverThirdPartyLoginConnectionDeleg
     
     @IBOutlet weak var name: UILabel! //name 설정
     @IBOutlet weak var email: UILabel! //email 설정
-    @IBOutlet weak var naverButton: UIButton!
+    @IBOutlet weak var naverButton: UIButton! //로그인 버튼 설정 
     
     let NaverloginInstance = NaverThirdPartyLoginConnection.getSharedInstance()
     override func viewDidLoad() {
